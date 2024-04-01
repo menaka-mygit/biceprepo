@@ -6,7 +6,7 @@ name: Deploy Bicep files
 variables:
     vmImageName: 'ubuntu-latest'
 
-    azureServiceConnection: 'menaka-mygit'
+    azureServiceConnection: 'new-gitconnect'
     resourceGroupName: 'Bicep'
     location: 'eastus'
     templateFile: 'main.bicep'
